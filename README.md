@@ -19,6 +19,7 @@ Follow the instructions below to compile and run the project from source.
 - Install Microsoft Visual Studio 2019
 - Clone repo (with LFS)
 - Download the [_CONTENTS_](https://drive.google.com/drive/folders/1esjHHMma-DroA2Bx1vJE48VVC7kaPr30?usp=sharing) folder and extract to the root folder
+- Right click IECAPSTONE.uproject and click "Generate Visual Studio project files"
 - Open the solution file and build
 
 #### Minimum Requirements
