@@ -131,7 +131,9 @@ const Page = () => {
     </Typography>
     <Grid container spacing={2} justifyContent={'center'}>
           <Team src='https://res.cloudinary.com/dlx2alkrl/image/upload/v1657263743/iecap/291060807_10165935890320212_4404263795928719880_n_dhs3e0.jpg' 
-          alt='sir neil' text='Neil Del Gallego' >
+          alt='sir neil' text='Neil Del Gallego'
+          email='neil.delgallego@dlsu.edu.ph'
+          phone='09278099887' >
           </Team>
     </Grid>
       
