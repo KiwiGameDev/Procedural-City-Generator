@@ -112,7 +112,6 @@ const Page = () => {
     {
         teamPics.map((item,i) => (
           <Team src={item.img} alt={item.alt} text={item.text} key={i}>
-            sup
           </Team>
         ))
       }
