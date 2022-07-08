@@ -10,7 +10,23 @@ import {
   } from '@mui/material/styles';
 
 
-let theme = createTheme();
+let theme = createTheme({
+  typography: {
+    h5: {
+      fontWeight:'bold',
+      fontFamily:'Montserrat',
+    },
+    body1: {
+      fontWeight: 500,
+      fontFamily:'Montserrat',
+    },
+    body2: {
+      fontWeight: 100,
+      fontFamily:'Montserrat',
+      color: (115, 125, 130),
+    },
+  },
+});
   theme = responsiveFontSizes(theme);
 
 //get image linkm , alt,  and text from props
@@ -29,6 +45,12 @@ const Team = (props) => {
         <Typography gutterBottom variant="h5" component="div" sx={{color: 'green'}}>
           {props.text}
         </Typography>
+
+        <Typography variant="body2" color="text.secondary">
+          {props.email} <br/>
+          {props.phone} 
+        </Typography>
+
       </CardContent>
     </Card>
 

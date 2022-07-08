@@ -25,3 +25,9 @@
     margin-top: 100px;
     justify-content: center;
 }
+
+/* ; */
+.Page_SystemDesign-img{
+    min-width: 60%;
+    object-fit: cover;
+}

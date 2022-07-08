@@ -54,22 +54,30 @@ const teamPics = [
   {
       img:'https://res.cloudinary.com/dlx2alkrl/image/upload/c_scale,h_500/v1657187282/iecap/289097064_553166136351120_843977060048039041_n_uyexh8.png',
       alt: 'bruce',
-      text: 'Bruce Miranda'
+      text: 'Bruce Miranda',
+      email: 'bruce_anakin_miranda@dlsu.edu.ph',
+      phone: '09175209681'
   },
   {
       img:'https://res.cloudinary.com/dlx2alkrl/image/upload/c_scale,h_500/v1657183668/iecap/285803154_436749421435273_1661640367028901574_n_tiu3e3.png',
       alt: 'jacob',
-      text: 'Jacob Manzano'
+      text: 'Jacob Manzano',
+      email: 'jacob_v_manzano@dlsu.edu.ph',
+      phone: '09083141827'
   },
   {
       img:'https://res.cloudinary.com/dlx2alkrl/image/upload/c_scale,h_500/v1657187326/iecap/290273874_604709460926414_1360098094770183102_n_ewpj91.jpg',
       alt: 'jaso',
-      text: 'Jaso Santiago'
+      text: 'Jaso Santiago',
+      email: 'jaso_santiago@dlsu.edu.ph',
+      phone: '09434062505'
   },
   {
     img:'https://res.cloudinary.com/dlx2alkrl/image/upload/v1657255295/iecap/IMG_6859_ngonkj.jpg',
     alt: 'jc',
-    text: 'Jan Carlo San Juan'
+    text: 'Jan Carlo San Juan',
+    email: 'jan_carlo_sanjuan@dlsu.edu.ph',
+    phone: '09171588857'
 },
 
 ];
@@ -106,15 +114,25 @@ const Page = () => {
 
 
     <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
-        Team <br/><br/>
+        Developers <br/><br/>
     </Typography>
     <Grid container spacing={2} justifyContent={'center'}>
     {
         teamPics.map((item,i) => (
-          <Team src={item.img} alt={item.alt} text={item.text} key={i}>
+          <Team src={item.img} alt={item.alt} text={item.text} email={item.email} phone={item.phone}  key={i}>
           </Team>
         ))
       }
+    </Grid>
+
+    
+    <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
+        Adviser <br/><br/>
+    </Typography>
+    <Grid container spacing={2} justifyContent={'center'}>
+          <Team src='https://res.cloudinary.com/dlx2alkrl/image/upload/v1657263743/iecap/291060807_10165935890320212_4404263795928719880_n_dhs3e0.jpg' 
+          alt='sir neil' text='Neil Del Gallego' >
+          </Team>
     </Grid>
       
 
@@ -162,6 +180,16 @@ const Page = () => {
            study on city generation that is specialized to create cities based on a specific country.
             This paper proposes a system that is capable of  procedurally generating cities that attempts to closely mimic the aesthetics and qualities of Philippine cities.
       </Typography>
+
+
+      <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
+        System Design 
+        </Typography>
+
+        <Box sx={{justifyContent:'center', overflow:'scroll'}}>
+          <img className='Page_SystemDesign-img' src='https://res.cloudinary.com/dlx2alkrl/image/upload/v1657264494/iecap/unnamed_kifql7.png' alt='system design'/>
+        </Box>
+
 
       <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
         Gallery 
