@@ -1,0 +1,34 @@
+.Header_Main{
+    background-image: url("https://res.cloudinary.com/dlx2alkrl/image/upload/v1655902122/iecap/HighresScreenshot00000_tdl7jf_jplvd5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 500px;
+    
+    align-items: center;
+    justify-content: center;
+
+    
+    display: flex;
+}
+
+.Header_Nested{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    overflow: auto;
+    align-items:center;
+    
+    
+}
+
+.Header_Text{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.Header_SubText{
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}

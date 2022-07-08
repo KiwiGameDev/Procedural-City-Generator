@@ -1,0 +1,27 @@
+.Page_Main{
+    
+}
+
+.Page_Header-Text{
+    color: rgb(44,163,103);
+    
+    
+}
+
+.Page_Body-Text{
+    color:rgb(115, 125, 130);
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.MuiTypography-h4{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top:100px;
+}
+
+.Page_Player{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
