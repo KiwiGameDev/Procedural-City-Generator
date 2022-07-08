@@ -12,9 +12,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build
-      run: 
-      - yarn install      # Run `yarn install` and `yarn build`
-      - CI=false yarn build
+      run: yarn install
 
     - name: Test
       run: npm run test
