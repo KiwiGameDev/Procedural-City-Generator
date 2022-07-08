@@ -39,8 +39,8 @@ const Header = () => {
         </Typography>
 
         <Stack spacing={2} direction="row" sx={{justifyContent:'center', margin:'40px 0'}}>
-          <Button variant="contained" href="https://gitlab.com/KiwiGameDev/iecapstone" sx={{backgroundColor:'green'}}>View on Github</Button>
-          <Button variant="contained" href="https://applejacks.itch.io/ppcg-using-osm" sx={{backgroundColor:'green'}}>Build</Button>
+          <Button variant="contained" href="https://github.com/KiwiGameDev/Procedural-City-Generator" target="_blank" sx={{backgroundColor:'green'}}>View on Github</Button>
+          <Button variant="contained" href="https://drive.google.com/file/d/135oUGdvAiX4vvyBEb20kgKrB93EuwAFW/view?usp=sharing" target="_blank" sx={{backgroundColor:'green'}}>Build</Button>
         </Stack>
         
 

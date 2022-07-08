@@ -67,7 +67,7 @@ const teamPics = [
       text: 'Jaso Santiago'
   },
   {
-    img:'https://res.cloudinary.com/dlx2alkrl/image/upload/v1657187537/iecap/artworks-t7D8y2p7ipr7cEiz-bNHakQ-t500x500_mzql1h.jpg',
+    img:'https://res.cloudinary.com/dlx2alkrl/image/upload/v1657255295/iecap/IMG_6859_ngonkj.jpg',
     alt: 'jc',
     text: 'Jan Carlo San Juan'
 },
