@@ -14,9 +14,6 @@ jobs:
     - name: Build
       run: yarn install
 
-    - name: Test
-      run: npm run test
-
     - name: Deploy
       run: |
         git config --global user.name 'jancarlosanjuan'
