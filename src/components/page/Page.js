@@ -218,7 +218,7 @@ const Page = () => {
       <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
         Acknowledgements
          </Typography>
-         <Typography variant="body1"  className='Page_Body-Text-Document' gutterBottom textAlign={'justify'}>
+         <Typography variant="body1"  className='Page_Body-Text-Document' gutterBottom textAlign={'center'}>
          We would like to acknowledge De La Salle University (DLSU), Sir Neil Patrick DelGallego, and Dr. Rafael Cabredo.
       </Typography>
 
